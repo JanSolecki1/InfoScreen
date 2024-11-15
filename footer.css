@@ -1,0 +1,152 @@
+.footer {
+    position: relative;
+    width: 720px;
+    height: 176px;
+    background-color: #0d2635;
+    overflow: hidden;
+  }
+  
+  .footer .overlap-group {
+    position: absolute;
+    width: 371px;
+    height: 133px;
+    top: 86px;
+    left: 174px;
+  }
+  
+  .footer .title {
+    position: absolute;
+    top: 0; /* Adjust if you want to move it down */
+    left: 0; /* Adjust if you want to align it elsewhere */
+    -webkit-text-stroke: 1px #0d2635; /* Text outline */
+    font-family: "Playfair Display";
+    font-weight: 700;
+    color: #faf8ee;
+    font-size: 100px;
+    text-align: right; /* Adjust if you need alignment elsewhere */
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 20px; /* Add padding to adjust positioning inside the container */
+  }
+  
+  .footer .uper-title {
+    position: absolute;
+    top: 7px;
+    left: 106px;
+    font-family: "Playfair Display-Bold";
+    font-weight: 700;
+    color: #faf8ee;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+    
+  .footer .designers-button {
+    position: absolute;
+    width: 136px;
+    height: 43px;
+    top: 32px;
+    left: 237px;
+    background-color: #0d2635;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #faf8ee;
+  }
+  
+  .footer .text-wrapper {
+    position: absolute;
+    width: 131px;
+    top: 8px;
+    left: 3px;
+    font-family: "Playfair Display-Bold";
+    font-weight: 700;
+    color: #faf8ee;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .footer .sustainability {
+    position: absolute;
+    width: 164px;
+    height: 43px;
+    top: 32px;
+    left: 37px;
+    background-color: #0d2635;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #faf8ee;
+  }
+  
+  .footer .div {
+    position: absolute;
+    width: 131px;
+    top: 8px;
+    left: 17px;
+    font-family: "Playfair Display-Bold";
+    font-weight: 700;
+    color: #faf8ee;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .footer .outfits-button {
+    position: absolute;
+    width: 141px;
+    height: 43px;
+    top: 32px;
+    left: 410px;
+    background-color: #0d2635;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #faf8ee;
+  }
+  
+  .footer .text-wrapper-2 {
+    position: absolute;
+    width: 131px;
+    top: 10px;
+    left: 5px;
+    font-family: "Playfair Display-Bold";
+    font-weight: 700;
+    color: #faf8ee;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .footer .quiz-button {
+    height: 43px;
+    top: 32px;
+    left: 582px;
+    background-color: #0d2635;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #faf8ee;
+    position: absolute;
+    width: 101px;
+  }
+  
+  .footer .text-wrapper-3 {
+    top: 10px;
+    left: 0;
+    font-family: "Playfair Display-Bold";
+    font-weight: 700;
+    color: #faf8ee;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    width: 101px;
+  }
+  

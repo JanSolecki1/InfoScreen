@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/** ---------------------------------------------Videos for main and frontPage-----------------------------------------------**/
+
+.Video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/** ---------------------------------------------Footer-----------------------------------------------**/
+
+
+.footer {
+  width: 720px;
+  height: 176px;
+  background-color: #0d2635;
+  color: #faf8ee;
+  font-family: "Playfair Display";
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  overflow: hidden; /* Ensures title overflow is clipped */
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-button {
+  width: 140px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #faf8ee;
+  border-radius: 10px;
+  background-color: #0d2635;
+  color: #faf8ee;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Playfair Display-Bold";
+  text-decoration: none;
+}
+
+.footer-button:hover {
+  background-color: #0d2635;
+  color: rgb(251, 114, 0);
+  border: 1px solid rgb(251, 114, 0);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden; /* Clips the title text to create the "cut in half" effect */
+  height: 100px; /* Adjust this height to control how much of the title is shown */
+}
+
+
+.footer-title {
+  font-size: 120px;
+  font-weight: 700;
+  position: absolute;
+  top: 15px; /* Adjust this value to control the cut amount */
+  left: 0;
+  right: 0;
+  margin: 0; /* Ensure no extra margin around the title */
+}
+
+/* Subtitle Styling */
+.footer-subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px; /* Adjust this value to bring it closer to the title */
+}
+
+
+
+
+
+/** --------------------------------------------- Header-----------------------------------------------**/
+
+
+.header {
+  width: 720px;
+  height: 176px;
+  background-color: #0d2635;
+  position: relative;
+  color: #faf8ee;
+  font-family: "Playfair Display-Bold";
+}
+
+.header-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #faf8ee;
+  border-radius: 10px;
+  background-color: #0d2635;
+  color: #faf8ee;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #0d2635;
+  color: rgb(251, 114, 0);
+  border: 1px solid rgb(251, 114, 0);
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 38px;
+  height: 28px;
+}
+
+.home-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/** ---------------------------------------------Faq top and bottom section---------------------------------------------**/
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #faf8ee;
+  font-size: 64px;
+  font-family: "Playfair Display";
+  gap: 10px;
+  } 
+
+.sectionUnderTitle {
+color: #FAF8EE;
+text-align: center;
+font-family: "Josefin Sans";
+font-size: 24px;
+margin-bottom: 40px;
+}
+
+
+.under-accordion {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+/* Text section */
+.text-message {
+gap: 20px;  
+text-align: center;
+  color: #FAF8EE ;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  word-wrap: break-word;
+  opacity: 0.7;
+  line-height: 20px;
+}
+
+/* Line styling */
+.line {
+  justify-content: center;
+  border: 4px #FB7200 dotted;
+}
+
+/* Contact details */
+.contact-info {
+  color: #FAF8EE;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 20px;
+  word-wrap: break-word;
+  opacity: 0.7;
+}
+
+/* Underline for email and phone number */
+.contact-info span.underline {
+  text-decoration: underline;
+}
+
+
+/** ---------------------------------------------FaQ Container-----------------------------------------------**/
+
+
+
+.faq-container {
+  width: 100%; /* Adjusted to full width for centering */
+  max-width: 720px; /* Max width to prevent it from being too wide */
+  background-color: #f5f3ec;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px; /* Centers the container */
+}
+
+.faq-item {
+  border-bottom: 20px solid #0d2635;
+}
+
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.faq-header:hover {
+  background-color: #f0ebe3;
+}
+.faq-header .icon {
+  display: flex;
+  align-items: center;
+}
+.faq-header img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.faq-arrow {
+  width: 16px;
+  height: 16px;
+}
+.faq-content {
+  display: none;
+  padding: 16px;
+ color: #0d2635;
+  font-size: 0.9em;
+}
+.faq-content p {
+  margin: 0;
+}
+.highlight {
+  color: rgb(251, 114, 0);
+  font-weight: bold;
+}
+
+/** ---------------------------------------------QR code section-----------------------------------------------**/
+
+/* Container for the slide-out box */
+.container {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Small box when collapsed */
+.small-box {
+  width: 50px;
+  height: 100px;
+  background-color:#f0ebe3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Large box when expanded */
+.large-box {
+  width: 300px;
+  height: 100px;
+  background-color: #f0ebe3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* QR code image */
+.qr-code {
+  width: 80px;
+  height: 80px;
+  background-image: url('rickroll-qrcode.jpg'); /* Replace with the actual QR code URL */
+  background-size: cover;
+  margin-left: 10px;
+}
+
+.qr-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0d2635;
+  font-family:  "Playfair Display-Bold";
+}
+
+/* Arrow icon images */
+.arrow {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;;
+}
+
+/* Toggle styles */
+.container.expanded .small-box {
+  display: none;
+}
+
+.container.expanded .large-box {
+  transform: translateX(0);
+}
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="header">
+        <div class="header-content">
+            <div class="date">S25 / 1-8 August</div>
+            <div class="title">CPHFW</div>
+            <div class="buttons">
+                <a href="schedule.html" class="button schedule-button">SCHEDULE</a>
+                <a href="map.html" class="button map-button">MAP</a>
+                <a href="faqPage.html" class="button faq-button">FAQ</a>
+            </div>
+            <a href="frontPage.html" class="home-button">
+                <img src="home.png" alt="Home">
+            </a>
+        </div>
+    </nav>
+ </header>
+ <main>
+    <div class="Frontpage" style="width: 720px; height: 928px; position: relative; background: #0D2635">
+        <video class="video" src="cpfw.mp4" style="width: 720px; height: 928px; left: 0px; top: 0px; position: absolute" loop autoplay muted></video>
+    </div>
+
+    <!-- Slide-out container -->
+<div class="container" id="slideContainer">
+    <script src="toggleBox.js"></script>
+    <!-- Small box with right arrow -->
+    <div class="small-box" onclick="toggleBox()">
+      <img src="arrow-right.png" alt="Expand" class="arrow" /> <!-- Right arrow image -->
+    </div>
+  
+    <!-- Large box with left arrow and QR code -->
+    <div class="large-box">
+      <img src="arrow-left.png" alt="Collapse" class="arrow" onclick="toggleBox()" /> <!-- Left arrow image -->
+      <div class="qr-code"></div>
+      <p> MOBILE <BR>INFO <BR>SCREEN</BR></p>
+    </div>
+  </div>
+
+</main>
+    <footer>
+      <div class="footer">
+          <div class="footer-buttons">
+              <a href="sustainability.html" class="footer-button">SUSTAINABILITY</a>
+              <a href="#" class="footer-button">DESIGNERS</a>
+              <a href="#" class="footer-button">OUTFITS</a>
+              <a href="#" class="footer-button">QUIZ</a>
+          </div>
+          <div class="footer-content">
+              <div class="footer-subtitle">@Copenhagen Fashion Week</div>
+              <div class="footer-title">CPHFW</div>
+          </div>
+      </div>
+  </footer>
+  
+  
+</body>
+
+</html>
